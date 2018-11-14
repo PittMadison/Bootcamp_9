@@ -1,0 +1,244 @@
+body{
+    width: 1200px;
+    height: 2079px;
+    background-color: white;
+    font-size: 0px;
+}
+
+/* header */
+
+header{
+    width: 1200px;
+    height: 18px;
+    padding-top: 70px;
+    font-size: 0px;
+}
+nav{
+    height: 18px;
+    font-size: 0px;
+}
+.nav_list{
+    background-color: white;
+    margin: 0px 310px;
+    padding: 0px;
+    width: 580px;
+    list-style: none;
+    font-size: 0px;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;   
+}
+.nav_list li{
+    display: inline-block;
+    height: 18px;
+    font-size: 14px;
+    text-align: center;
+    color: rgba(98, 98, 98, 255);
+    }
+.life{
+    background-color: white;
+    width: 75px;
+}
+.photo{
+    background-color: white;
+    width: 90px;
+    margin-left: 120px;
+}
+.music{
+    background-color: white;
+    width: 45px;
+    margin-left: 100px;
+}
+.travel{
+    background-color: white;
+    width: 60px;
+    margin-left: 90px;
+}
+
+/* section 1 */
+
+.lifestyle{
+    display: inline-block;
+    background-color: white;
+    height: 475px;
+    width: 900px;
+    margin: 100px 150px 0px 150px;
+    font-size: 0px;
+}
+.lifestyle ul{
+    height: 475px;
+    width: 900px;
+    font-size: 0px;
+    padding: 0px;
+}
+.lifestyle li{
+    display: inline-block;
+    font-size: 0px;
+}
+.life-second{
+    margin-left: 60px;
+}
+.lifestyle h2{
+    font-size: 13px;
+    font-family: 'Ubuntu', sans-serif;
+    width: 65px;
+    height: 15px;
+    background-color: white;
+    color: #b4ad9e;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.lifestyle h3{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    width: 420px;
+    height: 32px;
+    background-color: white;
+    color: #626262;
+    font-weight: 400;
+    margin-top: 25px;
+}
+.lifestyle p{
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    width: 420px;
+    height: 58px;
+    background-color: white;
+    color: #626262;
+    font-weight: 400;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    line-height: 20px;
+}
+/* section 2 */
+
+.Photodiary{
+    display: inline-block;
+    background-color: white;
+    height: 475px;
+    width: 900px;
+    margin: 130px 150px 0px 150px;
+    font-size: 0px;
+}
+.Photodiary ul{
+    height: 475px;
+    width: 900px;
+    font-size: 0px;
+    padding: 0px;
+}
+.Photodiary li{
+    display: inline-block;
+    font-size: 0px;
+}
+.photo-second{
+    margin-left: 60px;
+}
+.Photodiary h2{
+    font-size: 13px;
+    font-family: 'Ubuntu', sans-serif;
+    width: 84px;
+    height: 15px;
+    background-color: white;
+    color: #b4ad9e;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.Photodiary h3{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    width: 420px;
+    height: 32px;
+    background-color: white;
+    color: #626262;
+    font-weight: 400;
+    margin-top: 25px;
+}
+.Photodiary p{
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    width: 420px;
+    height: 58px;
+    background-color: white;
+    color: #626262;
+    font-weight: 400;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    line-height: 20px;
+}
+
+/* section 3 */
+
+.lifestyle-2{
+    display: inline-block;
+    background-color: white;
+    height: 475px;
+    width: 900px;
+    margin: 130px 150px 0px 150px;
+    font-size: 0px;
+}
+.lifestyle-2 ul{
+    height: 475px;
+    width: 900px;
+    font-size: 0px;
+    padding: 0px;
+}
+.lifestyle-2 li{
+    display: inline-block;
+    font-size: 0px;
+}
+.life-second-2{
+    margin-left: 60px;
+}
+.lifestyle-2 h2{
+    font-size: 13px;
+    font-family: 'Ubuntu', sans-serif;
+    width: 65px;
+    height: 15px;
+    background-color: white;
+    color: #b4ad9e;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.lifestyle-2 h3{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    width: 420px;
+    height: 32px;
+    background-color: white;
+    color: #626262;
+    font-weight: 400;
+    margin-top: 25px;
+}
+.lifestyle-2 p{
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    width: 420px;
+    height: 58px;
+    background-color: white;
+    color: #626262;
+    font-weight: 400;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    line-height: 20px;
+}
+
+/* footer */
+
+footer{
+    font-size: 0px;
+    height: 60px;
+    margin: 55px 518px 70px 518px;
+    background-color: white;
+}
+footer button{
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    height: 60px;
+    width: 164px;
+    margin: 0;
+    color: #626262;
+    padding: 6px 0px 6px 5px;
+    }
+
