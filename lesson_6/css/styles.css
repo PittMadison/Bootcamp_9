@@ -240,10 +240,11 @@
 .team-item p{
     margin-top: 15px;
     font-size: 15px;
-    font-family: 'Roboto', italic;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     text-align: center;
     color: #b2b2b2;
+    font-style: italic;
 }
 .red{
     color: #f38181;
@@ -282,7 +283,9 @@
     justify-content: space-between;
     align-items: center;
 }
-::placeholder{padding-left: 6px;}
+::placeholder{
+    padding-left: 6px;
+font-style: italic;}
 .foot p{
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;

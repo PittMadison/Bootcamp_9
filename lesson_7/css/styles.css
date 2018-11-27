@@ -1,0 +1,191 @@
+@font-face{
+    font-family: 'Montserat';
+    src: url('../fonts/montserrat-v12-latin-regular.woff') format('woff')
+}
+@font-face{
+    font-family: 'Roboto Slab';
+    src: url('../fonts/roboto-slab-v7-latin-700.woff') format('woff')
+}
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400i');
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 934px;
+    margin: 0 auto;
+    padding: 55px 0 127px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    background-image: url("../img/Logo-Treehouse.png");
+    width: 80px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 480px;
+}
+.menu-item{
+    text-transform: uppercase;
+    font-family: 'Montserat';
+    font-size: 14px;
+    font-weight: 600;
+}
+.services-title{
+    font-size: 40px;
+    font-family: 'Roboto Slab';
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+.service-p{
+    font-size: 14px;
+    font-family: 'Roboto Slab';
+    font-style: italic;
+    font-weight: 500;
+    color: rgba(119, 119, 119, 255);
+    text-align: center;
+    margin-top: 19px;
+}
+.services{
+    width: 934px;
+    margin: 0 auto;
+    padding-bottom: 115px;
+}
+.service-menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.si1, .si2, .si3{
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+}
+.si1{
+    background-image: url("../img/basket.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.si2{
+    background-image: url("../img/pc_ok.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.si3{
+    background-image: url("../img/lock.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.service-name, .service-txt{
+    text-align: center;
+}
+.service-name{
+    margin-top: 27px;
+    font-family: 'Roboto Slab';
+    font-size: 18px;
+    font-weight: bold;
+}
+.service-txt{
+    margin-top: 18px;
+    font-family: 'Roboto Slab';
+    font-size: 13px;
+    font-weight: bold;
+    color: rgba(119, 119, 119, 255);
+    width: 274px;
+}
+::placeholder{
+    padding-top: 20px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgba(187, 187, 187, 255);
+    font-family: 'Montserat';
+    font-weight: 600;
+}
+.button{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgba(187, 187, 187, 255);
+    font-family: 'Montserat';
+    font-weight: 600;
+}
+.contacts{
+    padding-top: 115px;
+    padding-bottom: 115px;
+    background-image: url("../img/world-map.png");
+    background-size: cover;
+}
+.wrapper{
+    width: 934px;
+    margin: 0 auto;
+}
+.contacts-title{
+    font-size: 40px;
+    font-family: 'Roboto Slab';
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+}
+.contacts-p{
+    font-size: 14px;
+    font-family: 'Roboto Slab';
+    font-style: italic;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+    margin-top: 19px;
+    color: rgba(119, 119, 119, 255); 
+}
+.input{
+    display: flex;
+    justify-content: space-between;
+    width: 934px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-top: 76px;
+}
+.input-items{
+    display: flex;
+    flex-direction: column;
+}
+.i-items:not(.uno){
+    margin-top: 29px;
+}
+.i-items{
+    padding: 20px 0 20px 20px;
+    width: 435px;
+}
+.button{
+    width: 240px;
+    margin: 0 auto;
+    font-family: 'Montserat';
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #fed136;
+    border: none;
+    padding: 26px 0;
+    border-radius: 5px;
+    margin-top: 56px;
+}
+:required:valid{
+    outline: 2px solid green;
+}
+:required:invalid{
+    outline: 2px solid red;
+}
+.menu-item:hover{
+    color: #fed136;
+}
