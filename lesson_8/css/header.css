@@ -1,0 +1,95 @@
+@media(min-device-pixel-ratio:2){
+    .wrapper{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/bg_mobile@2X.png");
+    }
+}
+
+/* ----- media rules ----- */
+
+@font-face{
+    font-family: 'Montserat';
+    src: url("../fonts/montserrat-v12-latin-700.woff") format("woff"); 
+    src: url("../fonts/montserrat-v12-latin-700.woff2") format("woff2");
+}
+@font-face{
+    font-family: 'Roboto';
+    src: url("../fonts/roboto-v18-latin-300.woff") format("woff");
+    src: url("../fonts/roboto-v18-latin-300.woff2") format("woff2");
+}
+    
+/* ---- fonts ----- */
+
+.header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.wrapper{
+    padding: 11px 19px 133px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/bg_mobile@1X.png");
+    background-position: center 0;
+    color: #fff;
+    background-repeat: no-repeat;
+}
+.head-logo, .head-menu_item{
+    text-decoration: none;
+    color: inherit;
+}
+.head-logo{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Montserat';
+    letter-spacing: 1px;
+}
+.head-menu_item{
+    font-size: 14px;
+    padding: 10px 20px;
+    font-family: 'Montserat';
+    letter-spacing: 1px;
+}
+.head-menu_item:hover{
+    border: 1.5px solid #fff;
+    border-radius: 25px;
+    padding: 8.5px 18.5px;
+}
+.header-title{
+    order: 1;
+    margin: 35.9375% auto 0;
+}
+.head-menu{
+    display: flex;
+    justify-content: center;
+}
+
+/* ---- section-1 ----- */
+
+.section-one{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 11.875%;
+}
+.section-one_title{
+    font-size: 28px;
+    font-family: 'Montserat';
+    text-transform: uppercase;
+    text-align: center;
+}
+.section-one_text{
+    font-size: 18px;
+    font-family: 'Roboto';
+    text-align: center;
+    margin-top: 5.9375%
+}
+.section-one_button{
+    font-size: 13px;
+    font-family: 'Montserat';
+    padding: 12px 50px;
+    border: none;
+    border-radius: 20px;
+    color: inherit;
+    background-color: #ff4e50;
+    margin-top: 5.9375%
+}
+
