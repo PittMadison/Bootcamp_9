@@ -1,6 +1,6 @@
 .section-two{
     margin-top: 21.25%;
-    padding: 0 19px 99px;
+    padding: 0 1.1875rem 6.1875rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,17 +15,17 @@
     margin-top: 4.375%;
 }
 .section-two_title{
-    font-size: 22px;
+    font-size: 1.375rem;
     font-family: 'Montserat';
     text-align: center;
 }
 .section-two_photo{
-    border-radius: 61px;
+    border-radius: 3.8125rem;
     display: block;
 }
 .bradley,.heather,.lukas,.woman{
     position: relative;
-    width: 122px;
+    width: 7.625rem;
     margin: 0 auto;
 }
 .luka{
@@ -43,13 +43,13 @@
     background-image: url("../img/TV.svg");
     background-position: center;
     background-repeat: no-repeat;
-    padding: 18px;
+    padding: 1.125rem;
     background-color: #ff4e50;
     position: absolute;
     right: 0;
     bottom: 0;
-    border-radius: 25px;
-    border: 3px solid white;
+    border-radius: 1.5625rem;
+    border: 0.1875rem solid white;
 }
 .heather::after{
     content: "";
@@ -57,13 +57,13 @@
     background-image: url("../img/CUP.svg");
     background-position: center;
     background-repeat: no-repeat;
-    padding: 18px;
+    padding: 1.125rem;
     background-color: #ffa507;
     position: absolute;
     right: 0;
     bottom: 0;
-    border-radius: 25px;
-    border: 3px solid white;
+    border-radius: 1.5625rem;
+    border: 0.1875rem solid white;
 }
 .lukas::after{
     content: "";
@@ -71,13 +71,13 @@
     background-image: url("../img/PROBE.svg");
     background-position: center;
     background-repeat: no-repeat;
-    padding: 18px;
+    padding: 1.125rem;
     background-color: #1cd7ad;
     position: absolute;
     right: 0;
     bottom: 0;
-    border-radius: 25px;
-    border: 3px solid white;
+    border-radius: 1.5625rem;
+    border: 0.1875rem solid white;
 }
 .woman::after{
     content: "";
@@ -85,24 +85,24 @@
     background-image: url("../img/PLANE.svg");
     background-position: center;
     background-repeat: no-repeat;
-    padding: 18px;
+    padding: 1.125rem;
     background-color: #4e73db;
     position: absolute;
     right: 0;
     bottom: 0;
-    border-radius: 25px;
-    border: 3px solid white;
+    border-radius: 1.5625rem;
+    border: 0.1875rem solid white;
 }
 .section-two_comment{
     text-align: center;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: 'Roboto';
     margin-top: 5%;
     color: #808080;
 }
 .section-two_name{
     text-align: center;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: 'Montserat';
 }
 .wom, .heat, .luka{
@@ -112,11 +112,11 @@
     margin-top: 6.25%;
 }
 .section-two_button{
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-family: 'Montserat';
-    padding: 11px 49px;
-    border: 1px solid #ff4e50;
-    border-radius: 20px;
+    padding: 0.6875rem 3.0625rem;
+    border: 0.0625rem solid #ff4e50;
+    border-radius: 1.25rem;
     background-color: transparent;
     margin-top: 9.0625%;
     color: #ff4e50;

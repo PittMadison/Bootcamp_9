@@ -1,7 +1,7 @@
 @media(min-width:768px){
     .wrapper{
         background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../img/bg_768@1X.png");   
-        padding: 28px 48px 100px;
+        padding: 1.75rem 3rem 6.25rem;
     }
     .header{
         flex-direction: row;
@@ -16,16 +16,16 @@
         margin-top: 21.259843%;
     }
     .section-one_title{
-        font-size: 52px;
+        font-size: 3.25rem;
         width: 74.898425%;
     }
     .section-one_text{
-        font-size: 24px;   
+        font-size: 1.5rem;   
         margin-top: 5.208333%;   
     }
     .section-one_button{
         margin-top: 4.427083%;
-        padding: 13px 24px;
+        padding: 0.8125rem 1.5rem;
     }
     .section-two{
         margin-top: 9.448819%;
@@ -56,7 +56,7 @@
 @media(min-width:1440px){
     .wrapper{
         background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/bg@1X.png");   
-        padding: 36px 250px 130px;
+        padding: 2.25rem 15.625rem 8.125rem;
     }
     .section-one_title {
         width: 65.898425%;
@@ -76,5 +76,23 @@
     }
     .section-two_button{
         margin-top: 2.708333%;
+    }
+}
+
+/* @media
+(min-width:1440px) and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+    .wrapper{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/bg@2X.png");
+    }
+} */
+@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px){
+    .wrapper{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/bg@2X.png");
+    background-size: cover;
     }
 }
