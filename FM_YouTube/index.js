@@ -8,6 +8,7 @@ let iframeDiv = document.createElement('div');
 iframeDiv.classList.add('iframeDiv');
 body.prepend(iframeDiv);
 gallery.addEventListener('click', getTube)
+window.addEventListener('DOMContentLoaded', getFm)
 
 function getFm (){
   let URL = 'http://ws.audioscrobbler.com/2.0/?method=chart.gettoptracks&api_key=412e51e107155c7ffabd155a02371cbd&format=json'
@@ -20,7 +21,7 @@ function getFm (){
   })
   .catch(err=>console.log(new Error('error in getFm function')))
 }
-getFm();
+
 
 function getTube (e){
   
@@ -30,11 +31,15 @@ if(e.target.classList.contains('push')) {
     fetch(URL)
     .then(res=>res.json())
     .then(data=>{
-      let videoID = data.items[0].id.videoId
-      iframeDiv.innerHTML =`<iframe src='https://www.youtube.com/embed/${videoID}?autoplay=1' frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>`
-      gallery.prepend(iframe)
+      let videoID = data.items[0].id.videoId;
+      iframeDiv.classList.add('iframeAct');
+      iframeDiv.innerHTML =`<button class='close'>X</button><iframe class='iframe' src='https://www.youtube.com/embed/${videoID}?autoplay=1' frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>`
+      gallery.prepend(iframeDiv)
       })
     .catch(err=>console.log(new Error('error in getTube function')))
+}
+if (e.target.classList.contains('close')){
+  iframeDiv.classList.remove('iframeAct');
 }
 }
 

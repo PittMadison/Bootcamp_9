@@ -1,3 +1,6 @@
+.gallery{
+  list-style: none;
+}
 .gallery__itemName{
     font-size: 50px;
   }
@@ -7,4 +10,25 @@
   }
   .push{
     padding: 140px;
+  }
+  .iframeDiv{
+    display: none;
+  }
+  .iframeAct{
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .iframe{
+    width: 1280px;
+    height: 720px;
+  }
+  .close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 16px;
+    font-size: 25px;
   }
