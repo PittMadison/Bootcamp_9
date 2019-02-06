@@ -1,0 +1,10 @@
+.gallery__itemName{
+    font-size: 50px;
+  }
+  .gallery__itemContainer{
+    display: flex;
+    align-items: center;
+  }
+  .push{
+    padding: 140px;
+  }
