@@ -39,8 +39,9 @@ if(e.target.classList.contains('push')) {
     .catch(err=>console.log(new Error('error in getTube function')))
 }
 if (e.target.classList.contains('close')){
-  iframeDiv.innerHTML = '';
+  console.log(iframeDiv.lastElementChild);
   iframeDiv.classList.remove('iframeAct');
+  return
 }
 }
 
